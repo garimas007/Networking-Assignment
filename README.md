@@ -9,17 +9,17 @@ Solution steps -
   > sudo apt-get update <br>
   > sudo apt-get install nginx
 2. Include your html page for website - 'awesomeweb'
-  > cd /var/www/html
+  > cd /var/www/html <br>
   > sudo vi index.html <br>
 ![image](https://github.com/garimas007/Networking-Assignment/assets/146625788/424f8a53-306e-4cec-a968-e785fdcd1d2b) <br>
 3. Make changes to config file for hosting your website
-  > cd /etc/nginx/sites-available
-  > sudo rm -rf default
+  > cd /etc/nginx/sites-available <br>
+  > sudo rm -rf default <br>
   > sudo vi awesomeweb <br>
 ![image](https://github.com/garimas007/Networking-Assignment/assets/146625788/54a51e18-2f85-401b-b001-2fbbbda9a8c8) <br>
 4. Make changes to host file for DNS
   > sudo vi /etc/hosts
-    - 127.0.0.1   awesomeweb
+    - 127.0.0.1   awesomeweb <br>
   > sudo systemctl restart nginx
 5. View at 'http://awesomeweb'
 <img width="131" alt="image" src="https://github.com/garimas007/Networking-Assignment/assets/146625788/35f6990a-bafa-47bc-a613-fede990b485c"> <br>
