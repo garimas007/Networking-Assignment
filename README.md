@@ -23,3 +23,15 @@ Solution steps -
   > sudo systemctl restart nginx <br>
 5. View at 'http://awesomeweb' <br>
 <img width="131" alt="image" src="https://github.com/garimas007/Networking-Assignment/assets/146625788/35f6990a-bafa-47bc-a613-fede990b485c"> <br>
+<br>
+<br>
+Q2. A website can have many subdomains and different services are running on them. Write a Python script to check the status of the subdomains which are up or down. The script should automatically check the status every minute and should update it in tabular format on the screen.
+Write documentation of it. <br>
+Solution steps: -
+1. Install python, pip, tabulate<br>
+  > sudo apt-get install python3<br>
+  > sudo apt install python3-pip<br>
+  > pip install requests tabulate<br>
+2. Write python script 'sudomaincheck.py' <br>
+3. Output after runnung script <br>
+<img width="196" alt="image" src="https://github.com/garimas007/Networking-Assignment/assets/146625788/d9f14894-ce0c-4d65-b22f-658c1772c5bc"> <br>
