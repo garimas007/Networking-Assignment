@@ -20,6 +20,6 @@ Solution steps -
 4. Make changes to host file for DNS
   > sudo vi /etc/hosts
     - 127.0.0.1   awesomeweb <br>
-  > sudo systemctl restart nginx
-5. View at 'http://awesomeweb'
+  > sudo systemctl restart nginx <br>
+5. View at 'http://awesomeweb' <br>
 <img width="131" alt="image" src="https://github.com/garimas007/Networking-Assignment/assets/146625788/35f6990a-bafa-47bc-a613-fede990b485c"> <br>
