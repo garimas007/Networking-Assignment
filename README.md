@@ -6,7 +6,7 @@ Write the detailed documentation with steps involved.
 <br>
 Solution steps -
 1. Install Apache2 / Nginx (I am installing nginx)
-  > sudo apt-get update
+  > sudo apt-get update <br>
   > sudo apt-get install nginx
 2. Include your html page for website - 'awesomeweb'
   > cd /var/www/html
